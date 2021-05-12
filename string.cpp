@@ -55,8 +55,8 @@ int main()
 
     // cout << " the value is " << s1 << endl;
 
-    ///////////////////////////////////////////  declaring strings through different types 
-    
+    ///////////////////////////////////////////  declaring strings through different types
+
     // char x = 'a';
 
     // char s[10] = "hello";
@@ -67,8 +67,7 @@ int main()
 
     // cout << i;
 
-
-    ///////////////////////////////////////////// difference between get and getline in string 
+    ///////////////////////////////////////////// difference between get and getline in string
 
     // char s[10];
     // cout<<"enter the number"<<endl;
@@ -76,15 +75,13 @@ int main()
 
     // cout<<s<< endl;
 
-
     //  char p[20];
     // cout<<"enter the number"<<endl;
     // cin>>p;
 
     // cout<<p<< endl;
-    
 
-   //***************************************** result 
+    //***************************************** result
     //    cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
     // shashankrai@Shashanks-Air tut_cpp % cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
     // enter the number
@@ -93,25 +90,19 @@ int main()
     // enter the number
     // rai
 
+    ////////////////////////////////////////////////////   use of get in the above problem
 
+    //    char s[10];
+    //     cout<<"enter the number"<<endl;
+    //     cin.get(s,10);
 
+    //     cout<<s<< endl;
 
+    //      char p[20];
+    //     cout<<"enter the number"<<endl;            ////// also look for range of get and getliune function
+    //     cin.get(p,20);
 
-   ////////////////////////////////////////////////////   use of get in the above problem 
-   
-
-//    char s[10];
-//     cout<<"enter the number"<<endl;
-//     cin.get(s,10);
-
-//     cout<<s<< endl;
-
-
-//      char p[20];
-//     cout<<"enter the number"<<endl;            ////// also look for range of get and getliune function
-//     cin.get(p,20);
-
-//     cout<<p<< endl;
+    //     cout<<p<< endl;
 
     ////////******************************** result
 
@@ -123,8 +114,7 @@ int main()
     // enter the number
     // ai
 
-
-    ////////////////////////////////////use of getline in above example 
+    ////////////////////////////////////use of getline in above example
 
     // char s[10];
     // cout<<"enter the number"<<endl;
@@ -132,13 +122,11 @@ int main()
 
     // cout<<s<< endl;
 
-
     //  char p[20];
     // cout<<"enter the number"<<endl;            ////// also look for range of get and getliune function
     // cin.getline(p,20);
 
     // cout<<p<< endl;
-    
 
     /////********************************* result
 
@@ -146,13 +134,10 @@ int main()
     // shashankrai@Shashanks-Air tut_cpp % cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
     // enter the number
     // shashank rai
-    // shashank 
+    // shashank
     // enter the number
 
-
-
-    //////////////////////////////////////////   solving above problem 
-
+    //////////////////////////////////////////   solving above problem
 
     // char s[10];
     // cout<<"enter the number"<<endl;
@@ -160,17 +145,13 @@ int main()
 
     // cout<<s<< endl;
 
-    // cin.ignore();   // this function is ot working here like in abdul bari video 
-
+    // cin.ignore();   // this function is ot working here like in abdul bari video
 
     // char p[20];
     // cout<<"enter the number"<<endl;            ////// also look for range of get and getliune function
     // cin.get(p,20);
 
-    // cout<<p<<endl; 
-
-
-
+    // cout<<p<<endl;
 
     ///////////////////////////////////// *************************************
     ///////////////////////////////////// *************************************
@@ -178,12 +159,10 @@ int main()
     ///////////////////////////////////// *************************************
     ///////////////////////////////////// *************************************
 
-    //////////////////////////   functions in strings 
+    //////////////////////////   functions in strings
     /////////////////////////   string.h / cstring
 
-
     // 1. strcat(destination , source)    \\   strncat(destination , source , length)
-     
 
     // char a[10] = "good ";
     // char b[20] = "morning";
@@ -191,9 +170,6 @@ int main()
     // strcat(a,b,3);
 
     // cout<<a<<endl;
-
-
-
 
     ////*****************************   strncat
 
@@ -204,10 +180,6 @@ int main()
 
     // cout<<a<<endl;
 
-
-
-
-
     //2. strcpy(destination , source)   \\ strncpy(destination , source, length)
 
     // char a[10] = "good ";
@@ -215,28 +187,17 @@ int main()
 
     // strcpy(a,b);
 
-    // cout<<a<<endl;      //  the elements or characters from b are copied to a and the characters in a are removed 
+    // cout<<a<<endl;      //  the elements or characters from b are copied to a and the characters in a are removed
 
-
-
-
-
-
-
-    // strncpy 
+    // strncpy
     // char a[10] = "good ";
     // char b[20] = "morning";
 
     // strncpy(a,b,2);
 
-    // cout<<a<<endl;   /// here only two characters are copied in the same 
+    // cout<<a<<endl;   /// here only two characters are copied in the same
 
-
-
-
-
-
-    //3. strstr(destination,source)  
+    //3. strstr(destination,source)
 
     // char a[10] = "morning";
     // char b[20] = "ning";
@@ -245,119 +206,98 @@ int main()
 
     // cout<<strstr(a,b)<<endl;     // it used used to find two strings . it looks at b and try to find the same string from a that has the characyers of a
 
-    
-
-
     //4. strchr(main,char)        \\ strrchr(main,char)
-    
-
 
     // char a[10] = "morning";
     // char b[20] = "n";
 
-
-    // cout<<strstr(a,b)<<endl;  // it is useed to find characters 
-
+    // cout<<strstr(a,b)<<endl;  // it is useed to find characters
 
     // strrchr
 
     // char a[10] = "morning";
     // char b[20] = "ning";
 
+    // cout<<strrchr(a,'o')<<endl;  // it compares the characters from the right side
+
+    //5. strcmp(str1,str2)                      it is used to compare two strings
+
+    // char a[10] = "morning";
+    // char b[20] = "ning";
+
+    // cout<<strcmp(a,b)<<endl;   // the value tells the value of 1 shoeter or greater than 2
+    // all are checked in alphabetical order
+    // generally ascii codes of (a-b) is result
+
+    //6. strtol(str1fr )  string to long
+    //7. strtof(str1, 'NULL')  string to float
+
+    // char s1[10] = "245";
+    // char s2[10] = "213.453";
+
+    // cout<<strtol(s1, NULL, 10)<<endl;
+    // cout<<strtof(s2,NULL);
+
+    ////////////////////////////////////8. tokeniser     strtok(str1,"=;")
+
+    // char s1[20] = "x=10;y=20;z=35";
+    // char *token = strtok(s1, "=;");
+
+    // while (token != NULL)
+    // {
+    //     cout << token << endl;
+    //     token = strtok(NULL, "=;");
+    // }
+
+
+    ///////////////////////////////////////    TOKEN EXAMPLE 2
+
+    // char s1[20] = "x=10;y=20;z=35";
+    // char *token = strtok(s1, ";");
+
+    // while (token != NULL)
+    // {
+    //     cout << token << endl;
+    //     token = strtok(NULL, ";");
+    // }
+
+
+    ///////////////////////////////////////    TOKEN EXAMPLE 3
+
+
+    // char s1[20] = "x=10;y=20;z=35";
+    // char *token = strtok(s1, "=?");
+
+    // while (token != NULL)
+    // {
+    //     cout << token << endl;
+    //     token = strtok(NULL, "=?");
+    // }
+
+    ///////////////////////////////////////////     TOKEN EXAMPLE 4
+
+
+    // char s1[20] = "x=10;y=20;z=35";
+    // char *token = strtok(s1, "=?");
+
+    // while (token != NULL)
+    // {
+    //     cout << token << endl;
+    //     token = strtok(NULL, "?=");
+    // }
+
     
+    ////////////////////////////////////////////   TOKEN EXAMPLE 5
 
-    // cout<<strrchr(a,'o')<<endl;  // it compares the characters from the right side 
-    
 
+    // char s1[20] = "x=10;y=20;z=35";
+    // char *token = strtok(s1, "?");
 
-
-
-
-    //5. strcmp(str1,str2)                      it is used to compare two strings 
-    
-    char a[10] = "morning";
-    char b[20] = "ning";
-
-    
-
-    cout<<strcmp(a,b)<<endl;   // the value tells the value of 1 shoeter or greater than 2
-                               // all are checked in alphabetical order 
-
-
-
-
-
-    
-
-
-     
-
-
-
-
-
-
-
-
-
-
-
-    ////////////////////////////////////////////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    // while (token != NULL)
+    // {
+    //     cout << token << endl;
+    //     token = strtok(NULL, "?");
+    // }
 
 
 
