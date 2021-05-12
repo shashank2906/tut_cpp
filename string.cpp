@@ -67,7 +67,173 @@ int main()
     // cout << i;
 
 
-    /////////////////////////////////////////////
+    ///////////////////////////////////////////// difference between get and getline in string 
+
+    // char s[10];
+    // cout<<"enter the number"<<endl;
+    // cin>>s;
+
+    // cout<<s<< endl;
+
+
+    //  char p[20];
+    // cout<<"enter the number"<<endl;
+    // cin>>p;
+
+    // cout<<p<< endl;
+    
+
+   //***************************************** result 
+    //    cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
+    // shashankrai@Shashanks-Air tut_cpp % cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
+    // enter the number
+    // shashank rai is
+    // shashank
+    // enter the number
+    // rai
+
+
+
+
+
+   ////////////////////////////////////////////////////   use of get in the above problem 
+   
+
+//    char s[10];
+//     cout<<"enter the number"<<endl;
+//     cin.get(s,10);
+
+//     cout<<s<< endl;
+
+
+//      char p[20];
+//     cout<<"enter the number"<<endl;            ////// also look for range of get and getliune function
+//     cin.get(p,20);
+
+//     cout<<p<< endl;
+
+    ////////******************************** result
+
+    //     cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
+    // shashankrai@Shashanks-Air tut_cpp % cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
+    // enter the number
+    // shashak rai
+    // shashak r
+    // enter the number
+    // ai
+
+
+    ////////////////////////////////////use of getline in above example 
+
+    // char s[10];
+    // cout<<"enter the number"<<endl;
+    // cin.getline(s,10);
+
+    // cout<<s<< endl;
+
+
+    //  char p[20];
+    // cout<<"enter the number"<<endl;            ////// also look for range of get and getliune function
+    // cin.getline(p,20);
+
+    // cout<<p<< endl;
+    
+
+    /////********************************* result
+
+    //     cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
+    // shashankrai@Shashanks-Air tut_cpp % cd "/Users/shashankrai/Desktop/tut_cpp/" && g++ string.cpp -o string && "/Users/shashankrai/Desktop/tut_cpp/"string
+    // enter the number
+    // shashank rai
+    // shashank 
+    // enter the number
+
+
+
+    //////////////////////////////////////////   solving above problem 
+
+
+    // char s[10];
+    // cout<<"enter the number"<<endl;
+    // cin.get(s,10);
+
+    // cout<<s<< endl;
+
+    // cin.ignore();   // this function is ot working here like in abdul bari video 
+
+
+    // char p[20];
+    // cout<<"enter the number"<<endl;            ////// also look for range of get and getliune function
+    // cin.get(p,20);
+
+    // cout<<p<< endl;
+
+
+
+
+
+
+
+
+
+
+
+    ////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
