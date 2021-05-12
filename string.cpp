@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstring>
 using namespace std;
 
 int main()
@@ -166,7 +167,130 @@ int main()
     // cout<<"enter the number"<<endl;            ////// also look for range of get and getliune function
     // cin.get(p,20);
 
-    // cout<<p<< endl;
+    // cout<<p<<endl; 
+
+
+
+
+    ///////////////////////////////////// *************************************
+    ///////////////////////////////////// *************************************
+    ///////////////////////////////////// *************************************
+    ///////////////////////////////////// *************************************
+    ///////////////////////////////////// *************************************
+
+    //////////////////////////   functions in strings 
+    /////////////////////////   string.h / cstring
+
+
+    // 1. strcat(destination , source)    \\   strncat(destination , source , length)
+     
+
+    // char a[10] = "good ";
+    // char b[20] = "morning";
+
+    // strcat(a,b,3);
+
+    // cout<<a<<endl;
+
+
+
+
+    ////*****************************   strncat
+
+    // char a[10] = "good ";
+    // char b[20] = "morning";
+
+    // strncat(a,b,3);
+
+    // cout<<a<<endl;
+
+
+
+
+
+    //2. strcpy(destination , source)   \\ strncpy(destination , source, length)
+
+    // char a[10] = "good ";
+    // char b[20] = "morning";
+
+    // strcpy(a,b);
+
+    // cout<<a<<endl;      //  the elements or characters from b are copied to a and the characters in a are removed 
+
+
+
+
+
+
+
+    // strncpy 
+    // char a[10] = "good ";
+    // char b[20] = "morning";
+
+    // strncpy(a,b,2);
+
+    // cout<<a<<endl;   /// here only two characters are copied in the same 
+
+
+
+
+
+
+    //3. strstr(destination,source)  
+
+    // char a[10] = "morning";
+    // char b[20] = "ning";
+
+    // strstr(a,b);
+
+    // cout<<strstr(a,b)<<endl;     // it used used to find two strings . it looks at b and try to find the same string from a that has the characyers of a
+
+    
+
+
+    //4. strchr(main,char)        \\ strrchr(main,char)
+    
+
+
+    // char a[10] = "morning";
+    // char b[20] = "n";
+
+
+    // cout<<strstr(a,b)<<endl;  // it is useed to find characters 
+
+
+    // strrchr
+
+    // char a[10] = "morning";
+    // char b[20] = "ning";
+
+    
+
+    // cout<<strrchr(a,'o')<<endl;  // it compares the characters from the right side 
+    
+
+
+
+
+
+    //5. strcmp(str1,str2)                      it is used to compare two strings 
+    
+    char a[10] = "morning";
+    char b[20] = "ning";
+
+    
+
+    cout<<strcmp(a,b)<<endl;   // the value tells the value of 1 shoeter or greater than 2
+                               // all are checked in alphabetical order 
+
+
+
+
+
+    
+
+
+     
 
 
 
