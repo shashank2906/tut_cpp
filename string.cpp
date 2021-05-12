@@ -43,18 +43,34 @@ int main()
 
     //////////////////////////////////////////
 
-    char s[20];
-    char s1[20];
-    cout << "enter the value";
-    cin.get(s, 100);
-    cout << " the value is " << s << endl;
+    // char s[20];
+    // char s1[20];
+    // cout << "enter the value";
+    // cin.get(s, 100);
+    // cout << " the value is " << s << endl;
 
-    cout << "enter the value again";
-    cin.getline(s1, 100);
+    // cout << "enter the value again";
+    // cin.getline(s1, 100);
 
-    cout << " the value is " << s1 << endl;
+    // cout << " the value is " << s1 << endl;
 
-    ///////////////////////////////////////////
+    ///////////////////////////////////////////  declaring strings through different types 
+    
+    // char x = 'a';
+
+    // char s[10] = "hello";
+    // char a[] = "hello";
+    // char k[] = {'h','e','l','l','o','\0'};
+    // char h[] = {65,66,67,68,69,'\0'};
+    // char *i = "hello";
+
+    // cout << i;
+
+
+    /////////////////////////////////////////////
+
+
+
 
     return 0;
 }
