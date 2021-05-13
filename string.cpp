@@ -299,8 +299,55 @@ int main()
     //     token = strtok(NULL, "?");
     // }
 
+     ///////////////////////////////??****************************************
+
+     ////////////////*********************  string iterator 
+
+    //  string str = "ilerator";
+    //  string::iterator it;
+
+    //  for ( it =str.begin() ; it != str.end(); it++)
+    //  {
+    //      cout<<*it;
+    //  }
+     
+     ////////////////////////////   example 2
+     
+
+     string str = "ilerator";
+     string::iterator it;
+
+     for ( it =str.begin() ; it != str.end(); it++)
+     {
+         *it = *it-32; 
+     }
+      
+      cout<<str;
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
 
     return 0;
 }
