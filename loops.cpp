@@ -1,3 +1,7 @@
+// there are two types of loops in cpp
+
+
+
 #include<iostream>
 using namespace std;
 
