@@ -322,7 +322,7 @@ int main()
          *it = *it-32; 
      }
       
-      cout<<str;
+      cout<<str;  
 
 
 
@@ -347,7 +347,7 @@ int main()
 
 
 
-      
+
 
     return 0;
 }
